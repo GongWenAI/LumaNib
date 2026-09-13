@@ -1,4 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="112" alt="LumaNib"></p>
+
+界面自动跟随系统显示语言：中文显示中文，其他语言显示英文。更改系统语言后请重启 LumaNib；已有颜色和快捷键设置保留。
 <h1 align="center">LumaNib</h1>
 <p align="center">让每一次指向，都清楚可见。</p>
 
@@ -11,7 +13,7 @@ LumaNib 是一款鼠标高亮与荧光屏幕画笔工具，适合录屏讲解、
 | 版本 | 适用系统 | 验证情况 |
 |---|---|---|
 | Mac · Apple Silicon | macOS 14 或以上，M 系列芯片 | 已在 M2 / macOS 26.5 上使用并核对界面 |
-| Windows · x64 测试版 | Windows 10 1809 或以上、Windows 11；64 位 Intel / AMD | 已交叉构建，48 项逻辑检查通过；Windows 实际操作与 OBS 录制尚未验证 |
+| Windows · x64 测试版 | Windows 10 1809 或以上、Windows 11；64 位 Intel / AMD | 已交叉构建，64 项逻辑检查通过；Windows 实际操作与 OBS 录制尚未验证 |
 
 当前版本：**1.58**。下载文件未做商业代码签名；Mac 包未做 Apple 公证。
 
