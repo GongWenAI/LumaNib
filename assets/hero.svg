@@ -16,7 +16,7 @@
  <text x="82" y="313" fill="#9ba9ba" font-size="21">Highlight clicks. Draw with light. Keep explaining.</text>
  <g fill="#101d28" stroke="#304352"><rect x="82" y="373" width="112" height="38" rx="19"/><rect x="205" y="373" width="122" height="38" rx="19"/><rect x="338" y="373" width="137" height="38" rx="19"/></g>
  <g fill="#cedae6" font-size="15" text-anchor="middle"><text x="138" y="398">macOS</text><text x="266" y="398">Windows</text><text x="406" y="398">Free to use</text></g>
- <text x="82" y="466" fill="#647587" font-size="14">1.58  /  ENGLISH + CHINESE</text>
+ <text x="82" y="466" fill="#647587" font-size="14">1.59  /  ENGLISH + CHINESE</text>
 </g>
 <g fill="none" stroke-linecap="round" stroke-width="19">
  <path d="M1110 100 A122 122 0 0 0 1110 340" stroke="#28d9f3" filter="url(#glow)"/>

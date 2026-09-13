@@ -1,6 +1,7 @@
 # Privacy statement · 隐私说明
 
-**LumaNib 1.58 · Desktop apps · Updated September 14, 2026**  
+**LumaNib 1.59 · Desktop apps · Updated September 14, 2026**
+
 Publisher / 作者：**宫文**  
 [Project](https://github.com/GongWenAI/LumaNib) · [Support](../SUPPORT.md) · [简体中文](#简体中文)
 
@@ -13,6 +14,7 @@ This statement describes the current LumaNib desktop apps for macOS and Windows.
 - **Mouse and shortcut input:** the app reads the cursor position, mouse button state and relevant shortcut events to display the ring, draw ink and respond to commands. Shortcut capture reads the combination you enter into its field. The app does not store a history of your typing.
 - **Ink:** strokes are held in memory while the app runs. Clearing ink, its configured expiry or quitting removes it. There is no built-in ink export or screen recording.
 - **Preferences:** appearance, drawing and shortcut settings are stored locally. Mac uses the app's user preferences; Windows uses `%LOCALAPPDATA%\LumaNib\settings.json`.
+- **Optional login startup:** enabling Launch at login registers the app with macOS Login Items or saves its executable path and background-launch argument in the current user’s Windows startup registry entry. This stays on your computer. Disable the option before removing the app to remove its startup entry.
 - **Diagnostics on Windows:** an application error may create a local `last-error.txt` under `%LOCALAPPDATA%\LumaNib`. If you explicitly run the self-test, it writes generated rendering images and a report under `SelfTest`. These are not screenshots of your desktop. Error logs can contain technical details and local file paths; review them before sharing.
 
 ## Network, accounts and third parties
@@ -33,13 +35,14 @@ Quitting clears in-memory ink. Local preferences and diagnostics remain on your 
 
 ## 适用范围
 
-本说明适用于当前 LumaNib 1.58 的 macOS、Windows 桌面版。未来 Android 版或尚未发布的商店版不在本说明范围内，发布时需按实际功能重新核对。
+本说明适用于当前 LumaNib 1.59 的 macOS、Windows 桌面版。未来 Android 版或尚未发布的商店版不在本说明范围内，发布时需按实际功能重新核对。
 
 ## 电脑上处理的数据
 
 - **鼠标和快捷键：** 为显示圆环、绘制笔迹和响应命令，软件读取鼠标位置、按键状态和相关快捷键事件；录入快捷键时读取你在输入框中按下的组合，不保存日常打字历史。
 - **屏幕笔迹：** 保存在软件运行内存中，清空、设定的淡出结束或退出软件后移除。软件没有笔迹导出或录屏功能。
 - **偏好设置：** 外观、绘制和快捷键设置在本机保存。Mac 使用应用用户偏好设置；Windows 使用 `%LOCALAPPDATA%\LumaNib\settings.json`。
+- **可选登录启动：** 开启后，Mac 向系统登录项登记应用；Windows 在当前用户的启动项注册表中保存程序路径和后台启动参数。这些信息保存在本机。删除软件前请先关闭此选项，以移除对应启动项。
 - **Windows 诊断文件：** 出错时可能在 `%LOCALAPPDATA%\LumaNib` 保存 `last-error.txt`。主动运行自检时，会在 `SelfTest` 下生成渲染测试图和报告，测试图不是桌面截图。错误日志可能包含技术信息和本机路径，请先检查再分享。
 
 ## 联网与第三方

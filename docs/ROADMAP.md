@@ -6,8 +6,8 @@ LumaNib's current product is a desktop mouse-highlighting and screen-pen app. Th
 
 | Platform | Current state | Next milestone |
 | :--- | :--- | :--- |
-| macOS · Apple Silicon | 1.58 desktop build; Chinese and English UI | Evaluate Mac App Store sandbox compatibility, particularly global input and overlay behavior; prepare distribution signing and review materials |
-| Windows · Intel/AMD x64 | 1.58 preview build; Windows 10/11 targets | Test on Windows 10 hardware, then validate Windows 11, scaling and recording behavior |
+| macOS · Apple Silicon | 1.59 desktop build; Chinese and English UI | Evaluate Mac App Store sandbox compatibility, particularly global input and overlay behavior; prepare distribution signing and review materials |
+| Windows · Intel/AMD x64 | 1.59 preview build; Windows 10/11 targets | Test on Windows 10 hardware, then validate Windows 11, scaling and recording behavior |
 | Android · Google Play | Planned separate app; no Android build yet | Define touch/pointer interactions and assess Android overlay and input permissions before implementation |
 
 For a **Mac App Store** submission, Apple requires appropriate sandboxing. The current desktop package is not a store submission build, and equivalent global mouse/keyboard behavior must be tested under those restrictions. See [Apple's Mac App Store requirements](https://developer.apple.com/app-store/review/guidelines/#hardware-compatibility).

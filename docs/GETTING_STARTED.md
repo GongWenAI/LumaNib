@@ -4,7 +4,7 @@
 
 ## Install and open
 
-Download the package for your platform from the [v1.58 release](https://github.com/GongWenAI/LumaNib/releases/tag/v1.58). The Windows build is a preview awaiting device testing.
+Download the package for your platform from the [v1.59 release](https://github.com/GongWenAI/LumaNib/releases/tag/v1.59). The Windows build is a preview awaiting device testing.
 
 - **Mac:** Apple Silicon, macOS 14 or later. Extract the ZIP and open `LumaNib.app`.
 - **Windows:** Intel/AMD x64, Windows 10 version 1809 or later, or Windows 11. Extract the entire ZIP and open `LumaNib.exe`. The included runtime files must stay beside it; no separate .NET installation is needed.
@@ -29,6 +29,12 @@ Open Shortcuts, click a field, press a combination, then choose Apply Shortcuts.
 
 LumaNib uses your preferred system interface language: Chinese languages show Simplified Chinese, and other languages show English. Restart the app after changing the language. Language changes do not reset your colors or shortcuts.
 
+## Launch at login
+
+In **General**, turn on **Launch at login**. It is off by default. Once enabled, LumaNib starts after you sign in and stays in the menu bar or tray without opening settings. Turn it off to remove the entry.
+
+Keep the app in a fixed location: Applications on Mac, or a permanent folder containing the entire Windows package. An external drive must be connected and accessible at login. If you move the Windows folder, use **Update Startup Path** in General. The system can disable startup independently; use the system-settings button on this page to check it. Mac may require approval in Login Items.
+
 ## Record with OBS
 
 LumaNib supplies an overlay, not a recording function. Use full display capture: **macOS Screen Capture → display** on Mac, or **Display Capture** on Windows. A single-window or game capture may omit the overlay. Make a short recording to confirm both ring and ink, and check audio separately.
@@ -43,7 +49,7 @@ Windows exclusive fullscreen, elevated apps and the UAC secure desktop may restr
 
 ## 安装与打开
 
-从作者的 [v1.58 发布页](https://github.com/GongWenAI/LumaNib/releases/tag/v1.58) 获取与你的系统对应的完整压缩包。Windows 版仍是待实机验证的测试版。
+从作者的 [v1.59 发布页](https://github.com/GongWenAI/LumaNib/releases/tag/v1.59) 获取与你的系统对应的完整压缩包。Windows 版仍是待实机验证的测试版。
 
 - **Mac：** macOS 14 及以上、M 系列芯片。完整解压，打开 `LumaNib.app`。
 - **Windows：** Windows 10 1809 及以上或 Windows 11、Intel/AMD 64 位。完整解压，打开 `LumaNib.exe`，保留同目录所有运行库文件，无需另装 .NET。
@@ -67,6 +73,12 @@ Windows exclusive fullscreen, elevated apps and the UAC secure desktop may restr
 在“全局快捷键”中点击输入框，直接按组合，再点“应用快捷键”。Mac 至少包含 Control、Option 或 Command；Windows 至少包含 Ctrl、Alt 或 Win。Esc 保留给退出操作，Windows 的 F12 也不能自定义。被系统或其他软件占用的组合可能无法使用。
 
 软件跟随系统界面语言：中文语言显示简体中文，其余语言显示英文。改完系统语言后重启软件生效，不会重置颜色和快捷键。
+
+## 登录后自动启动
+
+在**“通用”**中打开**“登录后自动启动”**，默认关闭。开启后，登录电脑时会在菜单栏或托盘运行，不弹出设置窗口；关闭开关会移除启动项。
+
+请先把软件放到固定位置：Mac 建议放在“应用程序”，Windows 保留完整解压文件夹。放在外接盘上时，登录时该盘必须已连接并可访问。Windows 文件夹移动后，可在“通用”中点“更新启动路径”。系统可以单独禁用启动项，可用页面里的系统设置按钮检查；Mac 若显示等待允许，需在系统登录项设置中允许。
 
 ## 配合 OBS 录屏
 

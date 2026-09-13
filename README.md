@@ -19,18 +19,18 @@
 | :---: | :---: |
 | <img src="assets/macos-ring-en.png" width="440" alt="LumaNib Mac settings showing independent ring colors, size and thickness"> | <img src="assets/macos-pen-en.png" width="440" alt="LumaNib Mac settings showing pen color, width, glow and drawing mode"> |
 
-*Actual macOS settings windows in English, captured from an isolated language preview of version 1.58. The banner is a brand illustration. Windows screenshots will be added after device testing.*
+*Actual macOS settings windows in English, captured from an isolated language preview of version 1.59. The banner is a brand illustration. Windows screenshots will be added after device testing.*
 
 ## Downloads & availability
 
-**Current version: 1.58.** [Open the release hub →](https://github.com/GongWenAI/LumaNib/releases)
+**Current version: 1.59.** [Open the release hub →](https://github.com/GongWenAI/LumaNib/releases)
 
 | Platform | Package | Requirements | Current validation |
 | :--- | :--- | :--- | :--- |
-| **Mac · Apple Silicon** | [LumaNib-1.58-macOS-arm64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.58/LumaNib-1.58-macOS-arm64.zip) | macOS 14+, M-series chip | Used on M2 / macOS 26.5; Chinese and English settings checked |
-| **Windows · Preview** | [LumaNib-1.58-Windows-x64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.58/LumaNib-1.58-Windows-x64.zip) | Windows 10 1809+ or Windows 11; Intel/AMD x64 | Cross-built with logic checks; native Windows operation and OBS capture still await testing |
+| **Mac · Apple Silicon** | [LumaNib-1.59-macOS-arm64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.59/LumaNib-1.59-macOS-arm64.zip) | macOS 14+, M-series chip | Used on M2 / macOS 26.5; Chinese and English settings checked |
+| **Windows · Preview** | [LumaNib-1.59-Windows-x64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.59/LumaNib-1.59-Windows-x64.zip) | Windows 10 1809+ or Windows 11; Intel/AMD x64 | Cross-built with logic checks; native Windows operation and OBS capture still await testing |
 
-> Version 1.58 is available from GitHub Releases as a desktop preview. The Windows build still awaits device testing. No app-store listing is currently available.
+> Version 1.59 is available from GitHub Releases as a desktop preview. The Windows build still awaits device testing. No app-store listing is currently available.
 
 Extract the full package before opening the app. The Windows package includes its runtime: keep all files together. The Mac build uses an ad hoc signature and is not Apple-notarized; neither package has commercial code signing. Device coverage and long recording sessions remain unverified.
 
@@ -51,6 +51,10 @@ Extract the full package before opening the app. The Windows package includes it
 
 Customize these in **Shortcuts** by clicking a field and pressing your combination. Chinese system languages show a Chinese interface; all other languages use English. Restart LumaNib after changing the system language.
 
+**New in 1.59:** enable **General → Launch at login** to start quietly in the menu bar or tray after signing in. It is off by default. [Setup and location notes](docs/GETTING_STARTED.md#launch-at-login).
+
+<img src="assets/macos-general-en.png" width="720" alt="LumaNib 1.59 General settings with Launch at login switched off">
+
 ## Local by design
 
 No account, ads or analytics are built into the current desktop app. Mouse input and shortcut events are processed locally to provide the effects. Ink is held in memory; appearance and shortcut preferences are saved on your computer. Windows can also save a local error log and optional self-test output. Clicking a project link opens GitHub in your browser.
@@ -61,7 +65,7 @@ Read the [privacy statement](docs/PRIVACY.md) for the scope of local storage and
 
 - [Quick start & recording tips](docs/GETTING_STARTED.md)
 - [Help, troubleshooting & feedback](SUPPORT.md)
-- [What's in 1.58](CHANGELOG.md)
+- [What's in 1.59](CHANGELOG.md)
 - [Platform plans](docs/ROADMAP.md)
 
 **© 2026 宫文. All rights reserved.** Free use does not grant an open-source or resale license. Third-party runtimes retain their own licenses, included with the Windows package.

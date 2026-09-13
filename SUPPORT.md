@@ -11,6 +11,7 @@
 | Ink disappears | Check Fade ink automatically and its delay. Quitting clears ink. |
 | Settings window disappears | LumaNib keeps running in the menu bar or tray when the window is closed. Open it again from the icon. |
 | The language did not change | Restart LumaNib after changing the system interface language. Chinese language settings use Simplified Chinese; all others use English. |
+| Does not launch at login | Enable the option in General, check system startup settings and keep the app at its registered location. External drives must be accessible at login. On Windows, update the startup path after moving the folder. |
 | Windows will not start | Extract all files, check the x64/OS requirements and review `%LOCALAPPDATA%\LumaNib\last-error.txt` if present. Windows device validation is still pending. |
 
 ## Contact and feedback
@@ -32,6 +33,7 @@ Do not attach passwords, activation codes, private recordings or logs you have n
 | 笔迹消失 | 检查是否开启自动淡出，以及保留时间；退出软件也会清除笔迹。 |
 | 设置窗口不见了 | 关闭窗口后仍在菜单栏或托盘运行，通过图标重新打开。 |
 | 语言没有变化 | 改完系统界面语言后重启 LumaNib。中文语言显示简体中文，其他语言显示英文。 |
+| 登录后没有自动运行 | 在“通用”中开启，检查系统登录项或启动应用，并保持程序位置固定。外接盘必须在登录时可访问；Windows 移动文件夹后需更新启动路径。 |
 | Windows 无法启动 | 完整解压，核对 64 位和系统版本要求；若有 `last-error.txt`，可检查本地错误记录。Windows 实机验证仍未完成。 |
 
 通过 [Issues](https://github.com/GongWenAI/LumaNib/issues) 向作者**宫文**反馈。请提供软件版本、系统版本、缩放比例、复现步骤、预期结果和实际结果；需要时附上裁剪后的截图。
