@@ -27,10 +27,10 @@
 
 | Platform | Package | Requirements | Current validation |
 | :--- | :--- | :--- | :--- |
-| **Mac · Apple Silicon** | `LumaNib-1.58-macOS-arm64.zip` | macOS 14+, M-series chip | Used on M2 / macOS 26.5; Chinese and English settings checked |
-| **Windows · Preview** | `LumaNib-1.58-Windows-x64.zip` | Windows 10 1809+ or Windows 11; Intel/AMD x64 | Cross-built with logic checks; native Windows operation and OBS capture still await testing |
+| **Mac · Apple Silicon** | [LumaNib-1.58-macOS-arm64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.58/LumaNib-1.58-macOS-arm64.zip) | macOS 14+, M-series chip | Used on M2 / macOS 26.5; Chinese and English settings checked |
+| **Windows · Preview** | [LumaNib-1.58-Windows-x64.zip](https://github.com/GongWenAI/LumaNib/releases/download/v1.58/LumaNib-1.58-Windows-x64.zip) | Windows 10 1809+ or Windows 11; Intel/AMD x64 | Cross-built with logic checks; native Windows operation and OBS capture still await testing |
 
-> Release access: the repository is currently private and v1.58 remains a release draft. There is no public download yet. These are desktop builds; no app-store listing is currently available.
+> Version 1.58 is available from GitHub Releases as a desktop preview. The Windows build still awaits device testing. No app-store listing is currently available.
 
 Extract the full package before opening the app. The Windows package includes its runtime: keep all files together. The Mac build uses an ad hoc signature and is not Apple-notarized; neither package has commercial code signing. Device coverage and long recording sessions remain unverified.
 

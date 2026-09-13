@@ -2,7 +2,7 @@
 
 ## 1.58 — Desktop preview
 
-**Release status:** private draft; not published to an app store.
+**Release status:** public desktop preview on GitHub Releases; not published to an app store.
 
 - Independent left/right ring colors, including the dim idle state; corresponding mouse clicks produce a glow.
 - A fluorescent freehand pen with adjustable color, width, glow and optional timed fading.
@@ -16,7 +16,7 @@ The Mac UI has been checked on M2 / macOS 26.5. Windows has been cross-built and
 
 ### 简体中文
 
-**状态：私有发布草稿，未在应用商店发布。**
+**状态：GitHub 公开桌面预览版，未在应用商店发布。**
 
 左右半环独立选色，未点击时也显示对应颜色；支持荧光手绘、粗细与发光调节、自动淡出、撤销及清空。快捷键可直接录入，支持按一下切换或按住绘制，Esc 退出。界面自动跟随系统中英文，并保留已有设置。
 

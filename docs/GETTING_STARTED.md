@@ -4,7 +4,7 @@
 
 ## Install and open
 
-Download the package for your platform from the [release hub](https://github.com/GongWenAI/LumaNib/releases) when a release is available to you. Releases currently remain private drafts.
+Download the package for your platform from the [v1.58 release](https://github.com/GongWenAI/LumaNib/releases/tag/v1.58). The Windows build is a preview awaiting device testing.
 
 - **Mac:** Apple Silicon, macOS 14 or later. Extract the ZIP and open `LumaNib.app`.
 - **Windows:** Intel/AMD x64, Windows 10 version 1809 or later, or Windows 11. Extract the entire ZIP and open `LumaNib.exe`. The included runtime files must stay beside it; no separate .NET installation is needed.
@@ -43,7 +43,7 @@ Windows exclusive fullscreen, elevated apps and the UAC secure desktop may restr
 
 ## 安装与打开
 
-从作者的 [Releases](https://github.com/GongWenAI/LumaNib/releases) 获取与你的系统对应的发布包。目前发布仍为私有草稿，只能由有权限的人访问。
+从作者的 [v1.58 发布页](https://github.com/GongWenAI/LumaNib/releases/tag/v1.58) 获取与你的系统对应的完整压缩包。Windows 版仍是待实机验证的测试版。
 
 - **Mac：** macOS 14 及以上、M 系列芯片。完整解压，打开 `LumaNib.app`。
 - **Windows：** Windows 10 1809 及以上或 Windows 11、Intel/AMD 64 位。完整解压，打开 `LumaNib.exe`，保留同目录所有运行库文件，无需另装 .NET。

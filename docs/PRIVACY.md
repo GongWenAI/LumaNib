@@ -23,7 +23,7 @@ When you click the project link, your default browser opens GitHub. That visit a
 
 ## Support information and removal
 
-You choose whether to submit a support issue or attach a screenshot/log. Reports may contain the details you provide and are visible to people with access to the repository. If the repository is made public, its issues may be public too. Do not submit passwords, private recordings or unreviewed logs. Contact the publisher through the [support instructions](../SUPPORT.md) for corrections or removal requests relating to submitted information; GitHub also provides its own account and privacy controls.
+You choose whether to submit a support issue or attach a screenshot/log. Reports contain the details you provide. This repository and its issues are public, so anyone may read your report and attachments. Do not submit passwords, private recordings or unreviewed logs. Contact the publisher through the [support instructions](../SUPPORT.md) for corrections or removal requests relating to submitted information; GitHub also provides its own account and privacy controls.
 
 Quitting clears in-memory ink. Local preferences and diagnostics remain on your computer until removed. Uninstalling the app may leave those settings or logs behind.
 
@@ -50,6 +50,6 @@ Quitting clears in-memory ink. Local preferences and diagnostics remain on your 
 
 ## 反馈与删除
 
-是否提交反馈、截图或日志，由你自行决定。提交内容对拥有仓库访问权限的人可见；仓库若改为公开，Issue 也可能公开。不要提交密码、私人录屏或未检查的日志。涉及已提交信息的更正、删除请求，可通过 [使用支持](../SUPPORT.md#简体中文) 联系作者，也可使用 GitHub 提供的账号与隐私管理功能。
+是否提交反馈、截图或日志，由你自行决定。当前仓库和 Issue 公开，任何人都可能看到你提交的内容及附件。不要提交密码、私人录屏或未检查的日志。涉及已提交信息的更正、删除请求，可通过 [使用支持](../SUPPORT.md#简体中文) 联系作者，也可使用 GitHub 提供的账号与隐私管理功能。
 
 退出软件会清除内存中的笔迹。本地设置和诊断文件会保留到手动删除，卸载程序不一定同时删除这些文件。

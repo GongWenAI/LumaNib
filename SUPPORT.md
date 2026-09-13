@@ -17,7 +17,7 @@
 
 Use [Issues](https://github.com/GongWenAI/LumaNib/issues) to contact **宫文** about LumaNib. Choose a bug report or feature request. Include the app version, OS version, display scaling, steps to reproduce, expected result and actual result. Include a cropped screenshot only if it helps.
 
-**This repository is currently private.** Only users with repository access can open or read its issues. A public support entry point must be available before an app-store release.
+**This repository and its issues are public.** You can read existing reports without an account; a GitHub account is needed to submit an issue.
 
 Do not attach passwords, activation codes, private recordings or logs you have not reviewed. An issue is not a secure channel for sensitive information. Please keep reports focused on one problem; no response-time guarantee is offered.
 
@@ -36,6 +36,6 @@ Do not attach passwords, activation codes, private recordings or logs you have n
 
 通过 [Issues](https://github.com/GongWenAI/LumaNib/issues) 向作者**宫文**反馈。请提供软件版本、系统版本、缩放比例、复现步骤、预期结果和实际结果；需要时附上裁剪后的截图。
 
-**目前仓库为私有，只有获得仓库权限的人能访问反馈入口。** 应用商店发布前需要提供公开可访问的支持页面。
+**当前仓库和 Issue 均公开可见。** 阅读已有反馈无需账号，提交反馈需要登录 GitHub。
 
 不要提交密码、授权码、私人录屏或未检查的日志，Issue 不适合传递敏感信息。每个反馈尽量只描述一个问题，暂不承诺固定回复时间。
