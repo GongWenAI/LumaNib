@@ -1,4 +1,4 @@
-# Release notes · 版本记录
+# LumaNib release notes · 版本记录
 
 ## 1.58 — Desktop preview
 
