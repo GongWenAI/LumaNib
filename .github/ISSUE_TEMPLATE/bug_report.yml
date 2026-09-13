@@ -1,0 +1,48 @@
+name: Bug report / 问题反馈
+description: Tell us what happened in LumaNib / 描述软件使用中遇到的问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for reporting a problem. Do not include passwords, private recordings or unreviewed logs. / 请勿提交密码、私人录屏或未检查的日志。"
+  - type: input
+    id: version
+    attributes:
+      label: LumaNib version / 软件版本
+      placeholder: "1.58"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 系统
+      options:
+        - macOS · Apple Silicon
+        - Windows 10 · x64
+        - Windows 11 · x64
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS version and displays / 系统版本及显示器
+      description: Include scaling, monitor count and OBS version if relevant. / 如有关系，请说明缩放比例、显示器数量与 OBS 版本。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshot or log excerpt / 可选截图或日志片段
+      description: Review and redact personal information before attaching. / 附件前先检查并遮盖私人信息。

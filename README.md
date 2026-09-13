@@ -1,51 +1,67 @@
-<p align="center"><img src="assets/icon.png" width="112" alt="LumaNib"></p>
+<p align="center"><img src="assets/hero.svg" width="100%" alt="LumaNib — Make every point clear. Mouse highlight and screen pen for macOS and Windows."></p>
 
-界面自动跟随系统显示语言：中文显示中文，其他语言显示英文。更改系统语言后请重启 LumaNib；已有颜色和快捷键设置保留。
-<h1 align="center">LumaNib</h1>
-<p align="center">让每一次指向，都清楚可见。</p>
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
+<p align="center"><a href="#downloads--availability">Downloads</a> · <a href="docs/GETTING_STARTED.md">Quick start</a> · <a href="docs/PRIVACY.md">Privacy</a> · <a href="SUPPORT.md">Support</a></p>
 
-LumaNib 是一款鼠标高亮与荧光屏幕画笔工具，适合录屏讲解、软件演示和教学。
+**LumaNib makes your cursor and annotations easier to follow during tutorials, presentations and screen recordings.** A split ring shows left and right clicks, while a glowing freehand pen lets you draw directly over your desktop.
 
-## 下载
+**Free to use.** Developed by **宫文**. This repository contains product information, support resources and release packages; the application source code is not published. See [copyright](COPYRIGHT.txt).
 
-请在 [Releases](https://github.com/GongWenAI/LumaNib/releases) 下载对应系统的完整压缩包。
+## Point. Click. Draw.
 
-| 版本 | 适用系统 | 验证情况 |
-|---|---|---|
-| Mac · Apple Silicon | macOS 14 或以上，M 系列芯片 | 已在 M2 / macOS 26.5 上使用并核对界面 |
-| Windows · x64 测试版 | Windows 10 1809 或以上、Windows 11；64 位 Intel / AMD | 已交叉构建，64 项逻辑检查通过；Windows 实际操作与 OBS 录制尚未验证 |
+| Make clicks visible | Draw with a glowing pen | Keep your workflow |
+| :--- | :--- | :--- |
+| Choose a color for each ring half. Left and right clicks light up their corresponding sides; both retain their chosen colors between clicks. | Set the ink color, width and glow. Draw freehand, undo the last stroke, clear the screen, or let ink fade automatically. | Record your own global shortcuts. Toggle drawing or hold a shortcut to draw. The interface follows your system's Chinese or English language. |
 
-当前版本：**1.58**。下载文件未做商业代码签名；Mac 包未做 Apple 公证。
+## A look inside
 
-## 功能
+| Mouse Ring | Glow Pen |
+| :---: | :---: |
+| <img src="assets/macos-ring-en.png" width="440" alt="LumaNib Mac settings showing independent ring colors, size and thickness"> | <img src="assets/macos-pen-en.png" width="440" alt="LumaNib Mac settings showing pen color, width, glow and drawing mode"> |
 
-- 鼠标跟随圆环：左右半环分别选色，点击或按住对应鼠标键时发光。
-- 荧光画笔：调整颜色、粗细与发光强度，保留手绘形状。
-- 按一下切换绘制或按住快捷键绘制，Esc 退出。
-- 撤销、清空和可选的笔迹自动淡出。
-- 直接录入自定义全局快捷键。
-- Mac 菜单栏 / Windows 系统托盘运行。
+*Actual macOS settings windows in English, captured from an isolated language preview of version 1.58. The banner is a brand illustration. Windows screenshots will be added after device testing.*
 
-## 开始使用
+## Downloads & availability
 
-1. 完整解压下载包。Mac 打开 `LumaNib.app`；Windows 打开 `LumaNib.exe`，保留同目录内所有文件。
-2. 默认按 **Control / Ctrl + Option / Alt + D** 进入画笔，左键拖动画线，**Esc** 退出。
-3. **Control / Ctrl + Option / Alt + R** 开关圆环，**Z** 撤销，**X** 清空。
-4. 在“全局快捷键”中可直接输入自己的组合。
-5. 使用 OBS 时请选择整个显示器采集，先录一小段确认圆环和笔迹。窗口采集、游戏采集可能遗漏效果。
+**Current version: 1.58.** [Open the release hub →](https://github.com/GongWenAI/LumaNib/releases)
 
-Windows 包自带运行库，无需另装 .NET。首次测试步骤和自检方式随下载包提供。
+| Platform | Package | Requirements | Current validation |
+| :--- | :--- | :--- | :--- |
+| **Mac · Apple Silicon** | `LumaNib-1.58-macOS-arm64.zip` | macOS 14+, M-series chip | Used on M2 / macOS 26.5; Chinese and English settings checked |
+| **Windows · Preview** | `LumaNib-1.58-Windows-x64.zip` | Windows 10 1809+ or Windows 11; Intel/AMD x64 | Cross-built with logic checks; native Windows operation and OBS capture still await testing |
 
-## 隐私与反馈
+> Release access: the repository is currently private and v1.58 remains a release draft. There is no public download yet. These are desktop builds; no app-store listing is currently available.
 
-软件本身不录屏，不主动联网，不保存键盘内容或屏幕笔迹，只保存外观与快捷键设置。点击项目地址时会通过默认浏览器打开 GitHub。
+Extract the full package before opening the app. The Windows package includes its runtime: keep all files together. The Mac build uses an ad hoc signature and is not Apple-notarized; neither package has commercial code signing. Device coverage and long recording sessions remain unverified.
 
-使用问题可提交到 [Issues](https://github.com/GongWenAI/LumaNib/issues)，说明系统版本、显示缩放比例和复现步骤。请勿上传密码、授权码或含私人内容的录屏。
+## Start in a minute
 
-## 版权
+1. Open **LumaNib.app** on Mac or **LumaNib.exe** on Windows.
+2. Press **Control + Option + D** on Mac, or **Ctrl + Alt + D** on Windows. Drag with the left mouse button to draw.
+3. Press **Esc** to stop drawing. Ink remains visible and lets clicks pass through to your apps.
+4. In OBS, capture the **entire display** and make a short test recording. Window or game capture may miss the overlay.
 
-**© 2026 宫文。保留所有权利。**
+| Default action | macOS | Windows |
+| :--- | :--- | :--- |
+| Toggle mouse ring | `⌃⌥R` | `Ctrl + Alt + R` |
+| Start / stop drawing | `⌃⌥D` | `Ctrl + Alt + D` |
+| Undo last stroke | `⌃⌥Z` | `Ctrl + Alt + Z` |
+| Clear ink | `⌃⌥X` | `Ctrl + Alt + X` |
+| Stop drawing / cancel shortcut capture | `Esc` | `Esc` |
 
-本项目的发布不代表授予开源许可或转售许可。第三方运行库依各自许可证提供，相关声明随 Windows 下载包附带。
+Customize these in **Shortcuts** by clicking a field and pressing your combination. Chinese system languages show a Chinese interface; all other languages use English. Restart LumaNib after changing the system language.
 
-项目地址：[github.com/GongWenAI/LumaNib](https://github.com/GongWenAI/LumaNib)
+## Local by design
+
+No account, ads or analytics are built into the current desktop app. Mouse input and shortcut events are processed locally to provide the effects. Ink is held in memory; appearance and shortcut preferences are saved on your computer. Windows can also save a local error log and optional self-test output. Clicking a project link opens GitHub in your browser.
+
+Read the [privacy statement](docs/PRIVACY.md) for the scope of local storage and user-submitted support information.
+
+## Follow the project
+
+- [Quick start & recording tips](docs/GETTING_STARTED.md)
+- [Help, troubleshooting & feedback](SUPPORT.md)
+- [What's in 1.58](CHANGELOG.md)
+- [Platform plans](docs/ROADMAP.md)
+
+**© 2026 宫文. All rights reserved.** Free use does not grant an open-source or resale license. Third-party runtimes retain their own licenses, included with the Windows package.

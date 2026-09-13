@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Quick start / 使用说明
+    url: https://github.com/GongWenAI/LumaNib/blob/main/docs/GETTING_STARTED.md
+    about: Setup, shortcuts and OBS recording tips / 安装、快捷键与 OBS 录制建议

@@ -1,0 +1,17 @@
+name: Feature request / 功能建议
+description: Describe a use case or improvement / 说说你的使用场景或改进建议
+title: "[Idea] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: What are you trying to do? / 你想完成什么？
+      description: Include your platform and the part of your workflow that could improve. / 请说明系统与具体使用场景。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion / 你的建议
+    validations:
+      required: true
