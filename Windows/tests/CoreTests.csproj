@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+ <ItemGroup><Compile Include="../src/LoginStartup.cs" Link="LoginStartup.cs"/><Compile Include="../src/Localization.cs" Link="Localization.cs"/><Compile Include="../src/Core.cs" Link="Core.cs"/><Compile Include="../src/HotKeys.cs" Link="HotKeys.cs"/><Compile Include="../src/Native.cs" Link="Native.cs"/></ItemGroup>
+</Project>

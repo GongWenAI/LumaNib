@@ -3,3 +3,16 @@
 *.zip
 *.app/
 *.exe
+*.pdb
+**/bin/
+**/obj/
+**/work/
+**/dist/
+.vs/
+.idea/
+.env
+.env.*
+*.p12
+*.pfx
+*.key
+*.pem

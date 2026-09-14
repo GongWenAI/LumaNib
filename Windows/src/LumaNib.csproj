@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>LumaNib</AssemblyName>
+    <RootNamespace>LumaNib</RootNamespace>
+    <Version>1.59</Version>
+    <AssemblyVersion>1.59.0.0</AssemblyVersion>
+    <FileVersion>1.59.0.0</FileVersion>
+    <Product>LumaNib</Product>
+    <Authors>宫文</Authors>
+    <PackageProjectUrl>https://github.com/GongWenAI/LumaNib</PackageProjectUrl>
+    <Copyright>© 2026 宫文。保留所有权利。</Copyright>
+    <Description>Mouse highlight and fluorescent screen pen</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <StartupObject>LumaNib.Program</StartupObject>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+    <!-- WPF owns the DPI manifest; WinForms is used only for the tray icon, not Application.Run. -->
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+  </PropertyGroup>
+  <ItemGroup><Resource Include="AppIcon.ico" /></ItemGroup>
+</Project>

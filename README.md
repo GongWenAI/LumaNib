@@ -5,7 +5,7 @@
 
 **LumaNib makes your cursor and annotations easier to follow during tutorials, presentations and screen recordings.** A split ring shows left and right clicks, while a glowing freehand pen lets you draw directly over your desktop.
 
-**Free to use.** Developed by **宫文**. This repository contains product information, support resources and release packages; the application source code is not published. See [copyright](COPYRIGHT.txt).
+**Free to use.** Developed by **宫文**. The macOS and Windows source code is available here. Free use, modification and free redistribution are permitted; selling the app or a modified version is prohibited without written permission. See [LICENSE](LICENSE) and [build instructions](docs/BUILDING.md).
 
 ## Point. Click. Draw.
 
@@ -68,4 +68,4 @@ Read the [privacy statement](docs/PRIVACY.md) for the scope of local storage and
 - [What's in 1.59](CHANGELOG.md)
 - [Platform plans](docs/ROADMAP.md)
 
-**© 2026 宫文. All rights reserved.** Free use does not grant an open-source or resale license. Third-party runtimes retain their own licenses, included with the Windows package.
+**© 2026 宫文. All rights reserved.** Source available under the [LumaNib No-Sale License](LICENSE), not MIT or an OSI-approved open-source license. Work, teaching and commercial presentations are allowed. Third-party runtimes retain their own licenses.

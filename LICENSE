@@ -1,0 +1,72 @@
+LumaNib Source-Available License — No Sale, Version 1.0
+Copyright (c) 2026 宫文. All rights reserved.
+Project: https://github.com/GongWenAI/LumaNib
+
+1. Scope and permission
+This license covers the LumaNib source code, application binaries, documentation,
+and original assets provided by the copyright holder (the “Software”). Subject
+to these terms, you may use, study, copy, modify, build, and distribute the
+Software and derivative versions free of charge. Use in a business, at work,
+in education, in presentations, and in commercial video productions is allowed.
+
+2. No sale or paid access
+Without separate written permission from the copyright holder, you must not
+sell, charge a license fee or subscription for, or otherwise require payment
+to obtain or use the Software or a derivative version. This includes renamed,
+repackaged, and modified versions, paid downloads, activation fees, and inclusion
+in a paid software bundle or paid service that provides access to the Software.
+Changing the name, icon, or code does not remove this restriction.
+
+3. Redistribution and attribution
+Keep this license and the copyright notice with all copies or substantial
+portions of the Software, including binary distributions. Clearly identify
+modified versions as modified and do not imply endorsement by the original
+author. Recipients must receive these same permissions and restrictions for the
+Software and its derivative versions; no additional permission to sell is granted.
+Publication of your modifications' source code is not required by this license.
+
+4. Third-party components
+Third-party components and runtimes are governed by their own licenses. This
+license does not replace or restrict the rights granted by those licenses.
+
+5. No warranty
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE.
+
+6. Termination and other rights
+The permissions granted here terminate automatically if you violate these
+terms. No rights beyond those expressly granted here are provided. The author
+may separately grant other permissions in writing.
+
+This is a source-available license with a no-sale restriction. It is not the
+MIT License and is not an OSI-approved open-source license.
+
+The Chinese text below explains the same terms. If the texts conflict, the
+English text above controls.
+
+简体中文说明
+
+LumaNib 源码公开许可——禁止销售，第 1.0 版
+版权所有 (c) 2026 宫文。保留所有权利。
+
+1. 本许可涵盖作者提供的 LumaNib 源码、程序、文档及原创素材。遵守本许可
+   即可免费使用、研究、复制、修改、编译和免费分发原版或修改版。用于工作、
+   企业内部、教学、演示及商业视频制作不受限制。
+2. 未经作者另行书面许可，不得销售原版或修改版，不得收取软件许可费、
+   订阅费、下载费、激活费或其他取得、使用软件的费用，也不得将其放入
+   收费软件包，或通过付费服务提供软件访问。改名、换图标或修改代码
+   不会解除这一限制。
+3. 分发源码或程序时，须保留版权声明和本许可。修改版须明确标注经过修改，
+   不得暗示获得原作者认可；接收者仍须遵守相同许可和禁止销售的限制。
+   本许可不强制公开你修改后的源码。
+4. 第三方组件和运行库适用各自许可，本许可不取代或限制其原有授权。
+5. 软件按现状提供，不作明示或默示保证。在适用法律允许的最大范围内，
+   作者不承担因软件或其使用产生的索赔、损害或其他责任。
+6. 违反本许可时，所获授权自动终止；本许可未明确授予的权利仍予保留。
+   作者可另行书面授权。
+
+本许可属于“源码可见、禁止销售”，不是 MIT，也不是 OSI 批准的开源许可。

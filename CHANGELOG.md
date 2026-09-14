@@ -1,5 +1,15 @@
 # LumaNib release notes · 版本记录
 
+## Source publication · 源码公开
+
+Mac and Windows 1.59 source, icons, build helpers and tests are now available
+under the [LumaNib Source-Available License — No Sale](LICENSE). Free use,
+modification and free sharing are allowed; selling the original or a derivative
+version requires written permission. Existing binary assets remain unchanged.
+
+已公开 Mac、Windows 1.59 源码、图标、构建脚本及测试。允许免费使用、修改和
+免费分发，未经书面许可禁止销售原版或修改版。已有程序包未更换。
+
 ## 1.59 — Launch at login · 登录后自动启动
 
 - Added **General → Launch at login** on macOS and Windows, off by default.
