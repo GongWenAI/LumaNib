@@ -25,7 +25,7 @@ elif (root/'work/nuget-packages').is_dir():
     nuget=root/'work/nuget-packages'
 else:
     nuget=Path.home()/'.nuget/packages'
-licenses=folder / 'Runtime-Licenses' 
+licenses=folder / 'Runtime-Licenses'
 licenses.mkdir(exist_ok=True)
 for package, names in [('microsoft.netcore.app.runtime.win-x64', ['LICENSE.TXT', 'THIRD-PARTY-NOTICES.TXT']), ('microsoft.windowsdesktop.app.runtime.win-x64', ['LICENSE'])]:
     version=runtime['runtimeOptions']['includedFrameworks'][0]['version']
